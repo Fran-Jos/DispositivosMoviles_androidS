@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /* bajamos la intensidad del color y con la paleta le dejamos al nivel modificado
+
+    <color name="black">#FF000000</color>
+    <color name="black_75">#BE000000</color>
+    <color name="black_50">#80000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="azulFont">#415a77</color>
+    <color name="blanquito">#e0e1dd</color>
+
+</resources>

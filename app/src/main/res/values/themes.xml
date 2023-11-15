@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Fjchanataxi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/material_on_background_emphasis_medium</item>
+    </style>
+
+    <style name="Theme.Fjchanataxi" parent="Base.Theme.Fjchanataxi" />
+
+    <style name="buttonTheme">
+        <item name="backgroundTint">@color/azulFont</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:text">hola mundo</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/pacifico</item>
+        <item name="android:textColor">@color/blanquito</item>
+    </style>
+
+    <style name="editTextTheme">
+
+        <item name="android:background">"@drawable/et_color_background" </item>
+        <item name="android:paddingLeft">25dp</item>
+
+    </style>
+</resources>
