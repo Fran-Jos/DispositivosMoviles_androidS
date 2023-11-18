@@ -7,6 +7,7 @@ android {
     namespace 'com.uce.fjchanataxi'
     compileSdk 34
 
+
     defaultConfig {
         applicationId "com.uce.fjchanataxi"
         minSdk 26
@@ -29,6 +30,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    buildFeatures{
+        viewBinding = true
     }
 }
 
