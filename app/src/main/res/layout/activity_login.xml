@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/azulFont"
+    tools:context=".p.ui.LoginActivity"
+
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="162dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/uuu" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="40dp"
+      android:textColor="@color/blanquito"
+
+        android:fontFamily="@font/pacifico"
+        android:text="BIENVENIDO"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textColor="@color/blanquito"
+
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:theme="@style/editTextTheme"
+        android:id="@+id/txt_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:ems="10"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:hint="user"
+        android:drawableLeft="@drawable/segundo_login_24"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_passworks"
+        android:textColor="@color/blanquito"
+
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        />
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+
+            android:hint="Contraseña"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        style="@style/buttonTheme"
+        android:drawableLeft="@drawable/btn_icon_change"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
